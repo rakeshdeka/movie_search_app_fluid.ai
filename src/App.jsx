@@ -11,7 +11,7 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const API_KEY = "b4611256";
-  const BASE_URL = "http://www.omdbapi.com/";
+  const BASE_URL = "https://www.omdbapi.com/";
 
 
   const fetchMovies = async (search = "") => {
